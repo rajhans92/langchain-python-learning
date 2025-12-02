@@ -1,5 +1,6 @@
 from langchain.chat_models import init_chat_model
 from langchain.messages import SystemMessage, HumanMessage, AIMessage
+from pydantic import BaseModel, Field
 from langchain.tools import tool
 from dotenv import load_dotenv
 import json
